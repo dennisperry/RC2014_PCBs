@@ -6,11 +6,11 @@ I've used SMT on pretty much all the boards. In my professional life I've done a
 If you are a small club or other organization you could get the boards built by someone like JLCPCB or the likes and not have to deal with the SMT issue.
 
 # 64K RAM/ROM Battery Backed Memory Board for RC2014
-One of the last boards is a 64k ROM/RAM board without banking. Not efficient with memory usage but flexible in being able to make many different memory maps. The ROM can be manually bank selected and will accept any of the SST39SF0x0 flash ICs. The jumpers allow RAM or ROM to traded in 4K block across the memory map. The RAM is battery backed. I use a non-banked version of SCM on this board.
+One of the last boards I built is a 64k ROM/RAM board without banking. I needed something simpler for a project than the Zeta2 banking system. It is not efficient with memory usage but flexible in being able to make many different memory maps. The ROM can be manually bank selected and will accept any of the SST39SF0x0 flash ICs. The jumpers allow RAM or ROM to traded in 4K block across the memory map. The RAM is battery backed. I use a non-banked version of SCM on this board.
 <img width="1291" height="876" alt="ROM-RAM-RC2014-V1" src="https://github.com/user-attachments/assets/75d2a686-3334-484b-a062-78efc3c0cf91" />
 
 #Backplane with UART for RC2014
-This backplane is built a 16550 UART which will save 1 slot and pretty every system will need a basic serial port. The UART is supplied with its own oscillator to make it independent of the other parts of the system.
+This backplane is built a 16550 UART which will save 1 slot and pretty much every system will need a basic serial port. The UART is supplied with its own oscillator to make it independent of the other parts of the system.
 <img width="857" height="1014" alt="BackPlane-WUART_for_RC2014" src="https://github.com/user-attachments/assets/33015d23-e15b-46ce-addb-7d47fe5048eb" />
 
 

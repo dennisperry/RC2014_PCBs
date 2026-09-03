@@ -3,6 +3,8 @@ I started with a simple RC2014 Classic II and then built a Zeta2 to get more cap
 
 I've used SMT on pretty much all the boards. In my professional life I've done a lot of work with SMT and don't find it that difficult. I'd recommend some solder paste and a hot air setup along with a good soldering iron, a flux pen and various sizes of solder wick. I've converted a toaster oven into a reflow oven if I were doing more that one unit builds. This route requires you purchase a solder paste stencil with your PCBs.
 
+No attempt is made to make the boards the same size, these boards were started with the tariffs at their peak and every sq inch was expensive. The routing is from the FreeRouting plug-in to KiCad. Some of the rough edges are fixed but I didn't want to make them a lifetime project.
+
 If you are a small club or other organization you could get the boards built by someone like JLCPCB or the likes and not have to deal with the SMT issue.
 
 # 64K RAM/ROM Battery Backed Memory Board for RC2014
@@ -13,5 +15,8 @@ One of the last boards I built is a 64k ROM/RAM board without banking. I needed 
 This backplane is built a 16550 UART which will save 1 slot and pretty much every system will need a basic serial port. The UART is supplied with its own oscillator to make it independent of the other parts of the system.
 <img width="857" height="1014" alt="BackPlane-WUART_for_RC2014" src="https://github.com/user-attachments/assets/33015d23-e15b-46ce-addb-7d47fe5048eb" />
 
+#Z80 CPU FOR RC2014
+A simple card with its own oscillator which can be either the 8 or 14 pin sizes. Clock can be put on the bus or not by jumper.
+<img width="2071" height="554" alt="Z80_CPU_for_RC2014_v21" src="https://github.com/user-attachments/assets/9afb27e2-b296-40d8-885c-f3e02628f19c" />
 
 

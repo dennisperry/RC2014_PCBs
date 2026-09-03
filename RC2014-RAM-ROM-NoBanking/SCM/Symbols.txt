@@ -1,0 +1,146 @@
+04FD  APIHandler   050F  APITable     0CE4  AsmSkipOverDelimiter            
+0CF4  AsmSkipToDelimiter              0C82  AsmSubsIndex                    
+0D00  AsmTestInstruction              0D23  AsmTestOperand                  
+0B87  Assemble     0F07  BPClear      0ED2  BPGo         0E12  BPHandler    
+0DFF  BPInitialise                    0F29  BPIsInMonitor                   
+0EC5  BPReqClr     0ECA  BPReqSet     0E9F  BPRestore    0EED  BPSet        
+0EDF  BPStep       0ECE  BPWrAddr     2000  BasicCode    3C60  BasicCodeEnd 
+2003  BasicCodeW   3C60  BasicHelp    3CCB  BasicHelpEnd                    
+1053  CLIBadParam  0FA2  CLIExecute   0FFD  CLIGetHexParam                  
+0F72  CLILoop      0FF4  CLISkipDelim                    0FEB  CLISkipNonDeli 
+0166  ClaimJump    1060  CmdAPI       135D  CmdAddressList                  
+1084  CmdAssemble  10CA  CmdBP        1323  CmdBaud      10E8  CmdConsole   
+1102  CmdDevices   1105  CmdDir       1146  CmdDisassemble                  
+1166  CmdEdit      11F0  CmdFill      11D1  CmdFlag      1217  CmdGo        
+1232  CmdHelp      1255  CmdIn        1146  CmdList      1267  CmdMemory    
+1328  CmdNameList  1323  CmdNew       1323  CmdOld       1288  CmdOut       
+1299  CmdRegisters                    0000  CmdReset     1323  CmdScript    
+1308  CmdStep      0000  ColdStart    00BD  ColdStrt     02EE  ConInitialise 
+06A3  ConvertByteToAscii              06AE  ConvertByteToNibbles            
+06BD  ConvertCharToNumber             06DE  ConvertCharToUCase              
+06E7  ConvertStringToNumber           01F0  Delay        01DC  DevInput     
+0159  DevNoIn      0159  DevNoOut     01E5  DevOutput    16EF  DisConTab    
+1522  DisGetNextAddress               1654  DisGetOpcode                    
+1859  DisInst      16EB  DisMaskTable                    
+16D1  DisOperandTable                 16F3  DisString    1663  DisWrChar    
+141B  DisWrInstruction                1458  DisWrMnemonic                   
+15BD  DisWrOperand                    1676  DisWrString  1F43  EndOfMonitor 
+0564  FDOS         057A  FDOSConIn    057D  FDOSConOut   0575  FDOSExit     
+0581  FDOSTable    0753  FindStringInList                13FB  FlagLogic    
+13E1  FlagNames    0203  GetConDev    0208  GetMemTop    0212  GetVersion   
+1E33  Hardware_BaudSet                1E3C  Hardware_BaudSet3               
+1D83  Hardware_BaudTable              1E6F  Hardware_Devices                
+1DAE  Hardware_Initialise             1E40  Hardware_PollTimer              
+1E4F  Hardware_Signon                 1AD0  HexGetByte   1A84  HexLoad      
+0435  IdleConfig   0444  IdlePoll     0495  IdleSetUp    048B  IdleTimer1   
+048F  IdleTimer2   0493  IdleTimer3   015B  InitJumps    
+0348  InputBufConvUpper               0325  InputChar    02F3  InputInsert  
+0366  InputLine    0370  InputLineEdit                   037F  InputLineNow 
+037B  InputLineTo  02F7  InputMore    0312  InputPreview                    
+033B  InputStatus  0761  IsCharHex    0774  IsCharNumeric                   
+105B  IsMiniTerm   FE12  JpAPI        FE0F  JpBP         FE18  JpConIn      
+FE1B  JpConOut     FE15  JpINT        FE24  JpIdle       FE00  JpNMI        
+FE03  JpRST08      FE06  JpRST10      FE09  JpRST18      FE0C  JpRST20      
+FE27  JpTimer1     FE2A  JpTimer2     FE2D  JpTimer3     00BD  JumpEnd      
+0069  JumpStrt     017D  MemAPI       0869  MonOutputMsg                    
+0B73  MsgTabMon    02E8  MsgTabSys    040B  OutputChar   0223  OutputMessage 
+0420  OutputNewLine                   0428  OutputZString                   
+0069  Page0End     0000  Page0Strt    04E9  PortMask     04D3  PrtIInit     
+04D7  PrtIRd       04DE  PrtITst      04BA  PrtOClr      04A5  PrtOInit     
+04C3  PrtOInv      04AB  PrtORd       04B4  PrtOSet      04AF  PrtOTst      
+04C7  PrtOWr       1D62  RC2014_SerialACE1_Hardware_BaudSet                 
+1D29  RC2014_SerialACE1_Initialise    1D4C  RC2014_SerialACE1_InputChar     
+1D54  RC2014_SerialACE1_OutputChar    1C37  RC2014_SerialACIA1_Initialise   
+1C63  RC2014_SerialACIA1_InputChar    1C73  RC2014_SerialACIA1_OutputChar   
+1C4D  RC2014_SerialACIA2_Initialise   1C6B  RC2014_SerialACIA2_InputChar    
+1C81  RC2014_SerialACIA2_OutputChar   1CA7  RC2014_SerialSIO2A_InputChar_T1 
+1CEB  RC2014_SerialSIO2A_InputChar_T2                    
+1CB7  RC2014_SerialSIO2A_OutputChar_T1                   
+1CFB  RC2014_SerialSIO2A_OutputChar_T2                   
+1CAF  RC2014_SerialSIO2B_InputChar_T1                    
+1CF3  RC2014_SerialSIO2B_InputChar_T2                    
+1CC5  RC2014_SerialSIO2B_OutputChar_T1                   
+1D09  RC2014_SerialSIO2B_OutputChar_T2                   
+1D17  RC2014_SerialSIO2_IniSend       1C8F  RC2014_SerialSIO2_Initialise_T1 
+1CD3  RC2014_SerialSIO2_Initialise_T2                    019F  ReadJump     
+13B3  RegisterAddresses               1387  RegisterNames                   
+0000  Reset        1F2C  RomCopy      1AFE  RomEcho      1B86  RomExFile    
+1F15  RomExec      1BFB  RomGetHlp    1C1A  RomGetInfo   1C0F  RomGetName   
+1B81  RomGetPtr    1C23  RomGetRef    1C16  RomGetType   1AE3  RomInitialise 
+1F14  RomPageInit  1BCA  RomRun       1B45  RomSearchInit                   
+1B4D  RomSearchNext                   077D  SearchStringList                
+07C2  SearchStringListNA              01B3  SelConDev    01C9  SelConDevI   
+01B6  SelConDevO   00C1  Selftest     00F5  SelftestEnd  0261  SetBaud      
+020D  SetMemTop    0000  StartOfMonitor                  0587  StrAppend    
+059A  StrAppendZ   05A9  StrClear     05B1  StrConvUpper                    
+05C8  StrCopyToZ   05E0  StrGetLength                    05E7  StrInitDefault 
+05EE  StrInitialise                   0604  StrPrint     060E  StrPrintDE   
+0621  StrWrAddress                    062F  StrWrAsciiChar                  
+0638  StrWrChar    064C  StrWrHexByte                    065C  StrWrHexNibble 
+066C  StrWrHexWord                    0677  StrWrNewLine                    
+067F  StrWrPadding                    0692  StrWrSpace   069A  StrWrSpaces  
+026C  SysReset     1F40  TransCopy    1F43  TransCopyEnd                    
+0154  TrapCALL     0155  TrapINT      0157  TrapNMI      0014  WStrt        
+0003  WarmStart    014B  WarmStrt     07CB  WrHexPrefix  07D3  WrInstruction 
+07E3  WrMemoryDump                    0825  WrRegister   0811  WrRegister1  
+081C  WrRegister2  FE75  iAF          FE83  iAF2         FE9A  iAsmDisFl    
+FE99  iAsmDisp     FE96  iAsmImmed    FE94  iAsmIndex    FE98  iAsmLenIm    
+FE90  iAsmOp1      FE92  iAsmOp2      FE8F  iAsmOper     FE95  iAsmPri      
+FE77  iBC          FE85  iBC2         FE9B  iBPAddr      FE9D  iBPData      
+FE9F  iBPReq       FE9E  iBPType      FE8B  iCSP         FE63  iConInBuf    
+FE62  iConInChar   FE79  iDE          FE87  iDE2         FEA8  iDisImmed    
+FEA4  iDisIndex    FEA6  iDisOp1Str   FEA5  iDisOpStr    FEA7  iDisOpcode   
+FE7B  iHL          FE89  iHL2         FEAF  iHwFlags     FEB0  iHwIdle      
+FE8D  iIR          FE7D  iIX          FE7F  iIY          FE66  iIdleCS      
+FE65  iIdleMS      FE68  iIdleP1      FE6A  iIdleP2      FE6C  iIdleP3      
+FE67  iIdleT1      FE69  iIdleT2      FE6B  iIdleT3      FE60  iMemTop      
+FEA3  iMiniTerm    FE73  iPC          FEA1  iParam1      FE6D  iPrtInA      
+FE6E  iPrtOutA     FE6F  iPrtOutD     FE81  iRegister2   FE73  iRegisters   
+FEAA  iRomBank     FEAC  iRomMap      FEAB  iRomRefLo    FEAD  iRomTemp     
+FE81  iSP          FE72  iStrSize     FE70  iStrStart    0016  k6850Init    
+000C  k6850Mask1   000E  k6850Mask2   0003  k6850Reset   0000  k6850RxRdy   
+0000  k6850Test1   0002  k6850Test2   0001  k6850TxRdy   0088  kACE1        
+0088  kACE1_R0     0089  kACE1_R1     008A  kACE1_R2     008B  kACE1_R3     
+008C  kACE1_R4     008D  kACE1_R5     008E  kACE1_R6     008F  kACE1_R7     
+0000  kACERxRdy    0006  kACETxRdy    0080  kACIA1       0080  kACIA1Cont   
+0081  kACIA1Data   0040  kACIA2       0040  kACIA2Cont   0041  kACIA2Data   
+0029  kAPILast     0027  kApostroph   0028  kBPAddress   00EF  kBPOpcode    
+0008  kBackspace   0038  kBaud1Def    0038  kBaud2Def    0000  kCode        
+003A  kColon       002C  kComma       0001  kConDef      0052  kConfMajor   
+0032  kConfMinor   FC00  kData        0132  kDelayCnt    007F  kDelete      
+0015  kDisBracHL   0005  kDisBrack    001F  kDisCALL     001C  kDisDJNZ     
+001B  kDisFlowF    0022  kDisFlowL    0018  kDisHL       0004  kDisImmed    
+001E  kDisJP       001B  kDisJR       0002  kDisLength   0003  kDisMask     
+0018  kDisMskC     0038  kDisMskCC    0038  kDisMskRST   003F  kDisOpMask   
+0020  kDisRET      001D  kDisRST      000A  kDisSubC     000B  kDisSubCC    
+0004  kDisSubNN    000D  kDisSubsL    0003  kDisWord     001B  kEscape      
+0002  kFDOSLast    0008  kFnConIn     0009  kFnConOut    0010  kFnDev1In    
+0011  kFnDev1Out   0014  kFnDev3In    001A  kFnDev6In    0007  kFnINT       
+000C  kFnIdle      0000  kFnNMI       0001  kFnRST08     0002  kFnRST10     
+0003  kFnRST18     0004  kFnRST20     0005  kFnRST28     0006  kFnRST30     
+000D  kFnTimer1    000E  kFnTimer2    000F  kFnTimer3    0003  kHardID      
+FD00  kInputBuff   0080  kInputSize   FE00  kJumpTab     000A  kLinefeed    
+0003  kMsgAbout    0024  kMsgBPClr    0025  kMsgBPFail   0023  kMsgBPSet    
+0020  kMsgBadCmd   0021  kMsgBadPar   0004  kMsgDevLst   0002  kMsgDevice   
+0029  kMsgFileEr   0026  kMsgHelp     0004  kMsgLstSys   0020  kMsgMonFst   
+0029  kMsgMonLst   0027  kMsgNotAv    0000  kMsgNull     0001  kMsgProdID   
+0028  kMsgReady    0022  kMsgSyntax   0005  kNewLine     0000  kNull        
+FFF2  kPassAF      FFF4  kPassBC      FF80  kPassCode    FFF0  kPassCtrl    
+FFF6  kPassDE      FF00  kPassData    FFFA  kPassDevI    FFFB  kPassDevO    
+FFF8  kPassHL      FFF0  kPassInfo    002E  kPeriod      002A  kPrompt      
+0000  kPrtIn       0000  kPrtOut      0001  kROMBanks    003F  kROMTop      
+0003  kReportAny   0001  kReportBad   0002  kReportMis   000D  kReturn      
+0080  kSIO2        0082  kSIOAConT1   0080  kSIOAConT2   0080  kSIOADatT1   
+0081  kSIOADatT2   0083  kSIOBConT1   0082  kSIOBConT2   0081  kSIOBDatT1   
+0083  kSIOBDatT2   002C  kSIOMask1    0000  kSIORxRdy    002C  kSIOTest1    
+0002  kSIOTxRdy    FD00  kSPSys       FCC0  kSPUsr       003B  kSemicolon   
+0020  kSpace       FD80  kStrBuffer   0080  kStrSize     FFD0  kTrFileRe2   
+FFE0  kTrFileRef   FF80  kTransCode   0001  kVersMajor   0000  kVersMinor   
+0000  kVersRevis   0041  kaBaud1Def   0042  kaBaud2Def   0040  kaConDev     
+08C8  sFlags       08A5  sRegister2   0882  sRegisters   029E  szAbout      
+08EC  szAsmError   090A  szBPClear    091E  szBPFail     08FA  szBPSet      
+08D0  szBadCmd     08DD  szBadParam   0F37  szBreak      0966  szCmdHelp    
+028B  szDevices    16CA  szDisTo      095A  szFileErr    093D  szNotAvail   
+0272  szNull       0F49  szOver       0273  szProduct    0953  szReady      
+1DA7  szStartup    0F43  szTrap       
+ 

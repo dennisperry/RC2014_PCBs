@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PinHdr_01x03-mod")(type "KiCad")(uri "${KIPRJMOD}/PinHdr_01x03-mod.pretty")(options "")(descr ""))
+)

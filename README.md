@@ -23,5 +23,8 @@ A simple card with its own oscillator which can be either the 8 or 14 pin sizes.
 This is a Zeta2 compatible bank select memory board. Allows full ROMWBW CP/M system with ROM and RAM disks. Again experimenters will appreciate the 32 pin ZIF socket. It does lack the battery backup of the Zeta2.
 <img width="1447" height="638" alt="512K_RAM-ROM-RC2014_V2" src="https://github.com/user-attachments/assets/cea71e1e-2a4a-45a7-96d1-5c0ec98a089f" />
 
+#16550 UART FOR RC2014
+Done before the backplane with UART, is Zeta2 compatible using ROMWBW. Has its own clock, and has pinout for a standard FTDI TTL to USB UART adapter.
+<img width="2090" height="557" alt="16550UART_RC2014_V21" src="https://github.com/user-attachments/assets/07df3dfc-3fa3-4a40-a05c-296a21805f2b" />
 
 

@@ -27,4 +27,8 @@ This is a Zeta2 compatible bank select memory board. Allows full ROMWBW CP/M sys
 Done before the backplane with UART, is Zeta2 compatible using ROMWBW. Has its own clock, and has pinout for a standard FTDI TTL to USB UART adapter.
 <img width="2090" height="557" alt="16550UART_RC2014_V21" src="https://github.com/user-attachments/assets/07df3dfc-3fa3-4a40-a05c-296a21805f2b" />
 
+#Z80 CTC DS1302 RTC FOR RC2014
+This board is Zeta2 compatible with ROMWBW. The RTC is battery backed. Generates periodic interrupts using tpye 2 interrupts.
+<img width="1735" height="801" alt="Z80-CTC-DS1302-RTC_RC2014_V2" src="https://github.com/user-attachments/assets/6e42ad85-327f-42dd-8d65-5a4c88f21f55" />
+
 

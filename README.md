@@ -12,6 +12,7 @@ One of the last boards I built is a 64k ROM/RAM board without banking. I needed 
 <img width="1291" height="876" alt="ROM-RAM-RC2014-V1" src="https://github.com/user-attachments/assets/75d2a686-3334-484b-a062-78efc3c0cf91" />
 
 #Backplane with UART for RC2014
+
 This backplane is built a 16550 UART which will save 1 slot and pretty much every system will need a basic serial port. The UART is supplied with its own oscillator to make it independent of the other parts of the system.
 <img width="857" height="1014" alt="BackPlane-WUART_for_RC2014" src="https://github.com/user-attachments/assets/33015d23-e15b-46ce-addb-7d47fe5048eb" />
 

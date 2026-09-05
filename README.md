@@ -42,5 +42,8 @@ Again Zeta2 compatible with ROMWBW. Supports power for a CF Card adapter. I use 
 Zeta2 compatible with ROMWBW. I found that once I had the PPIDE board in my system I really had no need for the FDC but it works fine.
 <img width="2082" height="736" alt="FDC_RC2014_V22" src="https://github.com/user-attachments/assets/c29d8abd-9f7f-44f7-be34-4a53e069522d" />
 
+# 8 BIT ARDUINO PRO MICRO INTERFACE
+Uses the Arduino Pro Micro with a ATmega32U4 with built in USB. WARNING this board has been barely smoke tested. I made it to potentially use it as a UART replacement but have not gotten around to it.
+<img width="2089" height="1001" alt="Arduino8BitInterface_RC2014" src="https://github.com/user-attachments/assets/ec4ae239-9989-4db2-a87f-74a0fa38ad1c" />
 
 
